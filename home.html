@@ -36,41 +36,149 @@
 <body>
 
 
-    <div id="bgfull" style="background-image: url('images/bg-02.jpg');">
+		<div id="bgfull" style="background-image: url('images/bg-03.jpg');"> 
 		
         
         <div class="pos-f-t">
             <div class="collapse" id="navbarToggleExternalContent">
-             
-              <div class=" wrap-login100 p-l-20 p-r-20 p-t-20 p-b-20" style="width: 100%;height: 500px;padding:50px; background-color: rgba(255, 255, 255, 0.849);">
-                <form class="login100-form validate-form">
-                
-                    <span class="login100-form-title p-b-37 zilla" style="color:  rgb(255, 81, 0);font-weight: 600;">
-                        MENU
-                    </span>
-                
-                </form>
-                
-            </div>
-            </div>
-            <nav class="navbar navbar-dark animated fadeInDown"style="color:red">
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span style="color: rgb(255, 81, 0);" class="fa fa-bars fa-x6"></span>
-                <p class="zilla" style="color:  rgb(255, 81, 0);font-weight: 600;">MENU</p>
-              </button>
-              
-              <div>
-                <img class="animated fadeInDown" style="width: 300px;margin: 10px;" src="images/Anáhuac_Mayab_logo2.png" alt="">
-            </div>
-            </nav>
-            
+              	<div class=" wrap-login100 p-l-20 p-r-20 p-t-20 p-b-20" style="width: 100%;height: 500px;padding:35px; background-color: rgba(255, 255, 255, 0.849);">
+					<form class="login100-form validate-form">
+						<span class="login100-form-title p-b-37 zilla" >
+							<ul class="nav nav-tabs" id="myTab" role="tablist">
+								<li class="nav-item">
+								<a class="nav-link active " id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Settings</a>
+								</li>   
+								<li class="nav-item">
+								<a class="nav-link " id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Map</a>
+								</li>
+								
+							</ul>
+							<div class="tab-content" id="myTabContent">
+								<div  class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+									<div class="grid" style="padding:25px">
+										<div class="row">
+											<div class="column">
+												<h2 style="margin-bottom: 10px;">Volume</h2>
+												<div class=""style="padding:5px">
+													<h4>Master volume</h4>
+													<div class="slidecontainer">
+														<input  type="range" min="1" max="100" value="50" class="slider" id="myRange">
+													</div>
+												</div>
+												<div class=""style="padding:5px">
+													<h4>Voice volume</h4>
+													<div class="slidecontainer">
+														<input type="range" min="1" max="300" value="50" class="slider" id="myRange">
+													</div>
+												</div>
+												<div class="" style="padding:5px">
+													<h4>Videos volume</h4>
+													<div class="slidecontainer">
+														<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+													</div>
+												</div>
+												<div class=""style="padding:5px">
+													<h4>Effects volume</h4>
+													<div class="slidecontainer">
+														<input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+													</div>
+												</div>
+											</div>
+											<div class="column"style="margin-left:30px">
+												<h2 style="margin-bottom: 10px;">Window</h2>
+												<div class="container-login100-form-btn">
+													<button class="login100-form-btn zilla" style="background-color: #a04c00; margin-top: 20px;">
+														<a style="color: white; font-weight: 600;" class=" zilla" href="#"> 50%</a>
+													</button>
+												</div>
+												<div class="container-login100-form-btn">
+													<button class="login100-form-btn zilla" style="margin-top: 20px;">
+														<a style="color: white; font-weight: 600;" class=" zilla" href="#"> 70%</a>
+													</button>
+												</div>
+												<div class="container-login100-form-btn">
+													<button class="login100-form-btn zilla"  style="margin-top: 20px;">
+														<a style="color: white; font-weight: 600;" class=" zilla" href="#"> 90%</a>
+													</button>
+												</div>	
+												<div class="container-login100-form-btn">
+													<button class="login100-form-btn zilla"  style="margin-top: 20px;">
+														<a style="color: white; font-weight: 600;" class=" zilla" href="#"> Fullscreen</a>
+													</button>
+												</div>	
+											</div>
+											<div class="column"style="margin-left:30px">
+												<h2 style="margin-bottom: 10px;">Screen</h2>
+												<div class="container-login100-form-btn">
+													<button class="login100-form-btn zilla" style="margin-top: 20px;">
+														<a style="color: white; font-weight: 600;" class=" zilla" href="#">Best performance	</a>
+													</button>
+												</div>
+												<div class="container-login100-form-btn">
+													<button class="login100-form-btn zilla" style="margin-top: 20px;">
+														<a style="color: white; font-weight: 600;" class=" zilla" href="#">Balanced</a>
+													</button>
+												</div>
+												<div class="container-login100-form-btn">
+													<button class="login100-form-btn zilla"  style="background-color: #a04c00; margin-top: 20px;">
+														<a style="color: white; font-weight: 600;" class=" zilla" href="#"> Best quality</a>
+													</button>
+												</div>	
+												<div class="container-login100-form-btn">
+													<button class="login100-form-btn zilla"  style="margin-top: 20px;">
+														<a style="color: white; font-weight: 600;" class=" zilla" href="#"> Low quality</a>
+													</button>
+												</div>	
+											</div>
+											<div class="column" style="margin-left: 10px;">
+												<h2 style="margin-bottom: 10px; margin-left: 30px;">Audio</h2>
+												<div>
+													<button type="button" class="btn btn-outline-secondary btn-block" style="margin:25px; color:rgb(255, 81, 0); background-color: rgba(255, 255, 255, 0.781);border: none;">Microphone Array</button>
+												</div>
+												<div>
+													<button type="button" class="btn btn-outline-secondary btn-block" style="margin:25px; color:rgb(255, 81, 0); background-color: rgba(255, 255, 255, 0.781);border: none;">Headset</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-pane fade " id="profile" role="tabpanel" aria-labelledby="profile-tab">
+									<img src="images/map.png" style="width: 60%; margin-top: 40px;" alt="">
+								</div>
+								<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+									
+								</div>  
+							</div>
+						</span>
+					
+					</form>
+            	</div>
+			</div>
+			
+			<div class="row">
+				<div class="column">
+					<nav class="navbar navbar-dark animated fadeInDown"style="color:red">
+					<button style="margin-left: 10px; background-color: rgba(255, 255, 255, 0.685);" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span style="color: rgb(255, 81, 0);" class="fa fa-bars fa-x6"></span>
+						<p class="zilla" style="color:  rgb(255, 81, 0);font-weight: 600;">MENU</p>
+					</button>
+					</nav>
+				</div>
+				<div class="column">
+					<div class="d-inline-flex p-1">
+						<p class="animated fadeInDown  zilla" style="font-size: 30px; position: absolute; right: 0; color:  rgb(255, 81, 0);font-weight: 1000; margin-right: 30px">ANÁHUAC MAYAB</p>
+					</div>
+				</div>
+			</div>
+			
+
         </div>
         
         <!--<div>
             <span class="fa fa-comments" style="color: white; width: 30px;"></span>
         </div>-->
-
 	</div>
+
 	
 	
 
